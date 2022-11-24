@@ -25,12 +25,6 @@ const Signup = () => {
     <div className='max-w-[500px] mx-auto my-16 p-4 bg-indigo-50 rounded-lg'>
       <div>
         <h1 className='text-2xl font-bold py-2'>Register</h1>
-        <p className='py-2'>
-          Al een account?{' '}
-          <Link to='/' className='underline'>
-            Log in
-          </Link>
-        </p>
       </div>
       <form onSubmit={handleSubmit}>
         <div className='flex flex-col py-2 '>

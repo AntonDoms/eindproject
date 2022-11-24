@@ -27,7 +27,7 @@ const Signin = () => {
         <h1 className='text-2xl font-bold py-2'>Log in</h1>
         <p className='py-2'>
           Nog geen account?{' '}
-          <Link to='/signup' className='underline'>
+          <Link to='/signup' className='font-bold underline'>
             Register
           </Link>
         </p>
